@@ -38,6 +38,11 @@ class NetworkHTTP(Signature):
             "^http://www\.microsoft\.com/.*\.crl$",
             "^http://ctldl\.windowsupdate\.com/.*",
             "^http://go\.microsoft\.com/.*",
+            "^http://officecdn\.microsoft\.com/.*",
+            "^http://officecdn\.microsoft\.com\.edgesuite.net/.*",
+            "^http://apps\.identrust\.com/.*",
+            "^http://*+\.globalsign\.com/.*",
+            "^http://ocsp\.verisign\.com/*."
             ]
         if "file" in self.results["target"]:
             if "PDF" in self.results["target"]["file"]["type"] or self.results["info"]["package"] == "pdf":
