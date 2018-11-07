@@ -39,7 +39,7 @@ class NetworkHTTP(Signature):
             "^http://ctldl\.windowsupdate\.com/.*",
             "^http://go\.microsoft\.com/.*",
             "^http://officecdn\.microsoft\.com/.*",
-            "^http://officecdn\.microsoft\.com\.edgesuite.net/.*",
+            "^http://officecdn\.microsoft\.com\.edgesuite\.net/.*",
             "^http://apps\.identrust\.com/.*",
             "^http://*+\.globalsign\.com/.*",
             "^http://ocsp\.verisign\.com/*."
